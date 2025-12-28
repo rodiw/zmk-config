@@ -1,0 +1,10 @@
+file_format: "1"
+id: seagull
+name: Seagull
+type: shield
+url: https://github.com/llong123/zmk-seagull-macropad
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
