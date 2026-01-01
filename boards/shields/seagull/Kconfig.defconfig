@@ -1,7 +1,7 @@
 if SHIELD_SEAGULL
 
 config ZMK_KEYBOARD_NAME
-    default "Seagull"
+    default "seagull"
 
 config SPI
     default y
