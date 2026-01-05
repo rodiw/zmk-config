@@ -26,8 +26,8 @@
 
             // Premium-feel encoder
             sensor-bindings = <
-                &inc_dec_kp C_VOL_DN C_VOL_UP
-                &inc_dec_kp PG_DN PG_UP
+                &inc_dec_kp 4 C_VOL_DN C_VOL_UP
+                &inc_dec_kp 3 PG_DN PG_UP
             >;
         };
 
@@ -41,7 +41,7 @@
             >;
 
             sensor-bindings = <
-                &inc_dec_kp C_VOL_DN C_VOL_UP
+                &inc_dec_kp 4 C_VOL_DN C_VOL_UP
             >;
         };
     };
